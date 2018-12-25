@@ -1,0 +1,25 @@
+@keyframes LetterPlate_appear-animation {
+    from {opacity:0; top:250px; left:50px}
+    to {opacity: 1; top:20px; left:20px}
+}
+
+.LetterPlate {
+    background: white;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+    animation-name: LetterPlate_appear-animation;
+    animation-duration: 0.3s;
+}
+
+.LetterPlate-letter {
+    font-size: 200px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+}
